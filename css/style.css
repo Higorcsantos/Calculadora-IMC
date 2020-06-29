@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+.header{
+	height: 10%;
+	padding: 10px;
+	background: linear-gradient(to bottom, #009933 0%, #00ffcc 100%);
+	text-align: center;
+	font-weight: bolder;
+	font-size: 180%;
+	color: white;
+}
+
+.info{
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 20px;
+	background: #d9d9d9d9;
+}
+.calculo_imc input{
+	width: 50%;
+	height: 30px;
+	margin-bottom: 2%;
+	padding: 10px;
+
+}
+.calculo_imc{
+	padding-top: 3%;
+	padding-left: 25%;
+	text-align: justify;
+	width: 100%;
+	background-color: #d9d9d9d9;	
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+.medidas{
+	border-radius: 25px;
+	border: ridge #009933 1px;
+}
+.calcular{
+	background: linear-gradient(to bottom, #009933 0%, #00ffcc 100%);
+	border-radius: 25px;
+	cursor: pointer;
+	font-weight: bolder;
+	color: white;
+}
+.baixopeso{
+	background: linear-gradient(to bottom, #ff0000 0%, #ff6666 100%);
+}
+.pesoideal{
+
+    background: linear-gradient(to bottom, #009900 0%, #66ff33 100%);
+}
+.sobrepeso{
+
+    background: linear-gradient(to bottom, #cc6600 0%, #ffff00 100%);
+}
+.obesidade{
+	background: linear-gradient(to bottom, #ff0000 0%, #ff6666 100%);
+}
+.container{
+	background: linear-gradient(to bottom, #009933 0%, #00ffcc 100%);
+	color: white;
+	font-size: bolder;
+}
