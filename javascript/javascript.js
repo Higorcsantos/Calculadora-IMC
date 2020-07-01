@@ -1,11 +1,12 @@
 $(document).ready(function(){
 
 	$('.calcular').click(function(){
-			var p = $('input[name=peso]').val();
+	var p = $('input[name=peso]').val();
 	var h = $('input[name=altura]').val();
 	p = parseFloat(p);
 	h=  parseFloat(h);
 	i = parseFloat((p)/(h*h));
+	i = i.toFixed(2);
 		if (i<=18.5){
 			$('.container').append("Seu IMC é: </div>"+i+'<div class="baixopeso">Baixo Peso</div');
 		}
